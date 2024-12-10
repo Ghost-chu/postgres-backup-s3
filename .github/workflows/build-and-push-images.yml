@@ -3,6 +3,7 @@ name: build and push images
 on:
   push:
     branches: ['master', 'postgre-17']
+  workflow_dispatch:
 
 jobs:
   build-and-push-image:
